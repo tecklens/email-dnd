@@ -3,16 +3,30 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@daybrush/drag": "^0.19.3",
+    "@daybrush/utils": "^1.13.0",
+    "@scena/react-guides": "^0.28.2",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/html2canvas": "^1.0.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.97",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "framework-utils": "^1.1.0",
+    "html2canvas": "^1.4.1",
+    "keycon": "^1.4.0",
+    "moveable": "^0.53.0",
+    "moveable-helper": "^0.4.0",
     "react": "^18.3.1",
+    "react-color": "^2.19.3",
     "react-dom": "^18.3.1",
+    "react-infinite-viewer": "^0.28.1",
+    "react-moveable": "^0.56.0",
     "react-scripts": "5.0.1",
+    "react-selecto": "^1.26.3",
+    "scenejs": "^1.10.3",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -39,5 +53,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-color": "^3.0.12"
   }
 }
